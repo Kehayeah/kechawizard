@@ -1,44 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="repository.kechayeah" name="KechaYeah Repository" version="1.1.0" provider-name="KechaYeah">
-		<extension point="xbmc.addon.repository" name="KechaYeah Repository">
-			<info compressed="false">https://raw.githubusercontent.com/Kehayeah/kechawizard/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Kehayeah/kechawizard/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Kehayeah/kechawizard/master/_zips/</datadir>
-			<hashes>false</hashes>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-			</dir>
-			<dir>
-					<info compressed="false">https://raw.githubusercontent.com/Twilight0/repo.twilight0/master/_zips/addons.xml</info>
-					<checksum>https://raw.githubusercontent.com/Twilight0/repo.twilight0/master/_zips/addons.xml.md5</checksum>
-					<datadir zip="true">https://raw.githubusercontent.com/Twilight0/repo.twilight0/master/_zips/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://bitbucket.org/thgiliwt/repo.thgiliwt/raw/HEAD/_thgiliwt/addons.xml</info>
-				<checksum>https://bitbucket.org/thgiliwt/repo.thgiliwt/raw/HEAD/_thgiliwt/addons.xml.md5</checksum>
-				<datadir zip="true">https://bitbucket.org/thgiliwt/repo.thgiliwt/raw/HEAD/_thgiliwt/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-				<hashes>false</hashes>
-			</dir>
-			</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>KechaYeah repository</summary>
-			<description>A small collection of addons and repos!</description>
-			<platform>all</platform>
-		</extension>
-	</addon>
+	
 	<addon id="plugin.program.kechawizard" name="KechaYeah's Wizard" version="1.0.1" provider-name="KechaYeah">
 	  <requires>
 		<import addon="xbmc.python" version="2.1.0"/>
