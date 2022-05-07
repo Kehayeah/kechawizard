@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="repository.kechayeah" name="KechaYeah Repository" version="1.1.0" provider-name="KechaYeah">
-	    <extension point="xbmc.addon.repository" name="KechaYeah Repository">
-			<info compressed="false">https://raw.githubusercontent.com/Kehayeah/kechawizard/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Kehayeah/kechawizard/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Kehayeah/kechawizard/master/_zips/</datadir>
+	<addon id="repository.kehayeah" name="KehaYeah Repository" version="1.1.0" provider-name="KehaYeah">
+	    <extension point="xbmc.addon.repository" name="KehaYeah Repository">
+			<info compressed="false">https://git.vkechagias.eu/kehayeah/kehawizard/raw/branch/main/addons.xml</info>
+			<checksum>https://git.vkechagias.eu/kehayeah/kehawizard/raw/branch/main/addons.xml.md5</checksum>
+			<datadir zip="true">https://git.vkechagias.eu/kehayeah/kehawizard/raw/branch/main/_zips/</datadir>
 			<hashes>false</hashes>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
@@ -29,22 +29,22 @@
 		</dir>
 			</extension>
 	    <extension point="xbmc.addon.metadata">
-		<summary>KechaYeah repository</summary>
+		<summary>KehaYeah repository</summary>
 		<description>A small collection of addons and repos!</description>
 		<platform>all</platform>
 	    </extension>
 	</addon>
-	<addon id="plugin.program.kechawizard" name="KechaYeah's Wizard" version="1.0.2" provider-name="KechaYeah">
+	<addon id="plugin.program.kehawizard" name="KehaYeah's Wizard" version="1.0.2" provider-name="KehaYeah">
 	  <requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 	  </requires>
 	  <extension point="xbmc.python.pluginsource" library="default.py">
 			<provides>executable</provides>
 	  </extension>
 	  <extension point="xbmc.addon.metadata">
-		<summary lang="en">KechaYeah's Wizard</summary>
+		<summary lang="en">KehaYeah's Wizard</summary>
 		<description lang="en">This wizard will download and install the build!</description>
-		<website>https://kechablog.ml</website>
+		<website>https://vkechagias.eu</website>
 		<platform>all</platform>
 	  </extension>
 	</addon>
